@@ -1,0 +1,44 @@
+UL_Systems_Menu = to run all the classes to show it works
+
+Program = containing name of program, years of study, type of program
+                                  (undergraduate, postgraduate, taught or research)
+
+Faculty = Holds all students from that faculty.
+	Should be able to set a students results for a module for each semester/year.
+
+
+Departments= Programs would be run by departments/schools ,
+             and can look at progress of all students in that program for that year.
+		Should store all facultys inside.
+
+Students = Should have modules , results, name , id, program,  transcripts, etc..
+ 	   Can request to repeat module/semester/year or join diffrent module.
+
+Student_Results = class with array of all grades from all modules of that student,
+                 with also a QCA calculator that can be sorted to give QCA per, semester,year, program.
+		THe QCA calculator should determine if the student has passed and calculate differantlly based off the program set. 
+
+
+Students_Transcripts = Should be refrenced so UL_Systems_Menu can use the student ID or name to show/print the students transcript.
+			Each faculty can also look up any students transcript in thier faculty.
+
+Modules = Used to set name and how much QCA its worth in a program.
+          Contains name , id, grading scheme(not sure if those are the same for every module, dont think so tho), etc.
+_____________________________________________________________________________________________________________________________________
+Inheratence:
+
+UL_System_Menu can call Student_Transcripts, Departments
+
+Program can call Modules
+
+Faculty can call Students
+
+Departments can call Faculty
+
+Students can call Program
+
+Student_Results can call Students, Program
+
+Students_Transcripts can call Students
+
+Modules can call nothing.
