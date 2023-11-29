@@ -23,7 +23,7 @@ Department password is (passwordDepartment)
 Student password is (passwordStudent) regardless of the entered ID.
 
 If you are a student:
-You can then use any of the prompted messages to see your transcript, or grades.
+You can then use any of the prompted messages to see your transcript, modules, etc.
 
 If you are a department:
 You can then use any of the prompted messages to see students transcript, grades, add modules/programs/grades etc.
