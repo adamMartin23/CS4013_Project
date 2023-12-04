@@ -12,12 +12,14 @@ Created and edited by:
 
 -----------------------------------------------------------------------------------------------------
 
-The finalised project is stored in the file called [FILENAME].
-All CSV files are stored in [FILENAME].
+The finalised project is stored in the file called CS4013_Final_Version.
+All CSV files are stored in New_Project_CSVs.
 
-The program starts by giving a prompt to enter an ID.
-ID can be either Student followed by student id number.
-Or you can enter Department.
+You need to create a SystemStart object using the file address of your CSVs. Eg. "C:\Users\user1\OneDrive\Documents\Year 2\CS4013_Final_Project\New_Project_CSVs".
+
+The program starts by giving a prompt to enter an Student or Department.
+Student is followed by student id number.
+
 
 Department password is (passwordDepartment)
 Student password is (passwordStudent) regardless of the entered ID.
